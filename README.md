@@ -10,10 +10,10 @@ Here used newer oleds API, and improved keymap.
 2. Copy this repo in `qmk/keyboards/crkbd/keymaps`
 3. In `qmk/` directory use
 
-For left split:
+For the left half of keyboard:
 
 ```sudo make crkbd:improved_jorne:avrdude-split-left```
 
-For right split:
+For the right half of keyboard:
 
 ```sudo make crkbd:improved_jorne:avrdude-split-right```
