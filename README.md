@@ -11,7 +11,9 @@ Here used newer oleds API, and improved keymap.
 3. In `qmk/` directory use
 
 For left split:
+
 ```sudo make crkbd:improved_jorne:avrdude-split-left```
 
 For right split:
+
 ```sudo make crkbd:improved_jorne:avrdude-split-right```
