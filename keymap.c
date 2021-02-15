@@ -225,7 +225,7 @@ void oled_render_logo(void) {
 
 // If you want swap oleds
 void oled_task_user(void) {
-    if (!is_master) {
+    if (is_master) {
         oled_render_layer_state();
         oled_render_keylog();
     } else {
